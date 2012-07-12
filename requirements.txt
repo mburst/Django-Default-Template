@@ -1,0 +1,7 @@
+django
+psycopg2
+recaptcha-client
+pylibmc
+django-pylibmc-sasl
+newrelic
+tornado

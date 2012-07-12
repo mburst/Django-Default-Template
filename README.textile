@@ -1,0 +1,17 @@
+h1. Django Default Template
+
+Use this project as a means to get you started with your Django app quicker than the default startproject command.
+
+h2. Settings Options
+
+By default the settings file lists the "Django Debug Toolbar":https://github.com/django-debug-toolbar/django-debug-toolbar as in installed app. Feel free to comment this out if you don't use it.
+
+The settings file uses environment variables for various things I use commonly. You may find a few of them useful. You can find them at the bottom of the settings file.
+
+h2. Heroku
+
+This template has a few features that will make hosting on heroku much easier. Using the default requirements file it will automatically cache your site if you install the memcache app and it will also serve static files through "Tornado":http://www.tornadoweb.org/
+
+h2. Future
+
+I will keep this updated as new Django versions are released and as I learn other new and nifty tricks. If you have any suggestions feel free to let me know or fork it and make something that works for your development environment.
